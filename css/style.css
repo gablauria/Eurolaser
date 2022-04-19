@@ -1,0 +1,339 @@
+* {margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* Barra de navegacion */
+.navegacion{
+    width: 100%;
+    margin: 30px auto;
+    background-color: #FDAF75;
+    border-radius: 20px;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.5rem;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'BIZ UDMincho', serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: black;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background-color: #FDAF75;
+    width: 200%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 15px;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'BIZ UDMincho', serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.LOGO{
+    height: 100px;
+}
+header {
+    display: flex;
+    align-items: center;
+    grid-area: nav;
+}
+
+.body_index{
+background-color: #F24A72;
+padding: 10px;
+margin: 15px;
+border: 10px;
+font-family: 'BIZ UDMincho', serif;
+display: grid; 
+gap: 0px 0px; 
+grid-template-areas: 
+"nav nav nav"
+"main main main"
+"card1 card2 card3"
+"footer footer footer";
+/* grid-template-rows: 66px 466px 330px 67px;*/
+}
+
+.body_materiales,.body_cortelaser,.body_contacto,.body_grabados{
+    background-color: #F24A72;
+    padding: 10px;
+    margin: 15px;
+    border: 10px;
+    font-family: 'BIZ UDMincho', serif;
+    display: grid; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "nav nav"
+    "main main"
+    "footer footer";}
+
+
+
+
+main{
+    grid-area: main;
+}
+
+.principal_contacto{
+    padding: 10px;
+    margin: 15px;
+    text-align: left;
+    border: 10px;
+}
+
+footer{
+    background-color: #FDAF75;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: footer;
+    height: 50px;  
+
+}
+.logos_footer{
+    width: 30px;
+    height: 30px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: center;
+    text-align: justify;
+    font-size: 2.5rem;
+    font-family: 'BIZ UDMincho', serif;
+}
+.titulo_index{
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.imgPrincipal {
+    width: 60rem;
+    height: 35rem;
+    border-radius: 45px;
+    border-color: #EAEA7F;
+    border-style:groove;
+    margin: 15px;
+}
+
+.card1{
+    grid-area:card1;
+}
+
+.card2{
+grid-area:card2;
+}
+.card3{
+    grid-area:card3;
+}
+
+.img_card{
+    width: 70%;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 5px 5px black;
+    transition: transform .2s; 
+}
+.img_card:hover {
+    transform: scale(1.3);
+}
+/* Formulario */
+.tituloContacto{
+    padding-bottom: 15px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+
+/* Pagina Grabados */
+
+.titulo_grabados{
+    text-align: center;
+}
+.sub_grabados{
+    text-align: left;
+    padding: 20px
+}
+.texto_grabados{
+    text-align: justify;
+    font-size: 2rem;
+
+}
+.lista_grabados{
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.div_imagenes{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+    border: 15px;
+
+}
+
+.img_grabados{
+height: 400px;
+border-radius: 10px;
+border: 100px;
+}
+/* Pagina Corte Laser */
+
+.titulo_cortelaser{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+.texto_cortelaser{
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.lista_cortelaser{
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+/* Pagina Materiales */
+.titulo_materiales{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+.texto_materiales{
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.lista_materiales{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+
+}
+
+/*responsivo (? */
+@media (max-width: 360px){
+
+html{font-size: 30%;}
+footer{
+    flex-wrap: wrap;
+}
+
+    .body_index {grid-template-areas: 
+    "nav"
+    "main"
+    "card1"
+    "card2"
+    "card3"
+    "footer";}
+    .img_card {width: 45%;}
+    .principal{
+        flex-wrap: wrap;
+        flex-direction: column;}
+    .imgPrincipal{
+        width: 40rem;
+        height: 40rem;
+        margin: 20px;}
+    
+    header{
+    flex-direction: column;
+    align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .submenu{
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+    }
+    .navegacion{
+        width: 50%;}
+
+    .body_materiales{
+        padding: 10px;
+        margin-left: 15px;
+        border: 10px; 
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";}
+    .lista_materiales{
+        margin-left: 2px;
+        }
+    .lista_cortelaser{
+        margin-left: 2px;
+    }
+    .body_grabados{
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";}
+    .div_imagenes{
+        flex-wrap: wrap;}
+    .img_grabados{
+        height: 200px;
+        margin-top: 10px;
+    }
+    .logos_footer{
+        width: 15px;
+        height: 15px;
+    }
+}
+
