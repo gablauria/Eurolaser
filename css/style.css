@@ -11,7 +11,7 @@ html{
 .navegacion{
     width: 100%;
     margin: 30px auto;
-    background-color: #FDAF75;
+    background-image: radial-gradient(circle at 70.78% 51.82%, #ffcb8d 0, #ffbe81 25%, #fdaf74 50%, #f5a068 75%, #ee925e 100%);
     border-radius: 20px;
 }
 
@@ -71,7 +71,7 @@ header {
 }
 
 .body_index{
-background-color: #F24A72;
+background-image: linear-gradient(335deg, #ff6972 0, #ff5973 25%, #f24a72 50%, #d83d6f 75%, #c1326c 100%);
 padding: 10px;
 margin: 15px;
 border: 10px;
@@ -114,19 +114,20 @@ main{
 }
 
 footer{
-    background-color: #FDAF75;
+    background-image: radial-gradient(circle at 50% 50%, #fff1ae 0, #ffe7a5 12.5%, #ffd898 25%, #ffc688 37.5%, #fdaf74 50%, #f19862 62.5%, #e88556 75%, #e27650 87.5%, #df6a50 100%);
     text-align: center;
     margin-bottom: 10px;
     margin-top: 15px;
     border-radius: 10px;
     font-family: 'BIZ UDMincho', serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     grid-area: footer;
-    height: 50px;  
+    height: 50px;
+
 
 }
 .logos_footer{
