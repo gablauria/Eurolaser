@@ -8,81 +8,29 @@ html{
     font-size: 62.5%;
 }
 /* Barra de navegacion */
-.navegacion{
-    width: 100%;
-    margin: 30px auto;
-    background-image: radial-gradient(circle at 70.78% 51.82%, #ffcb8d 0, #ffbe81 25%, #fdaf74 50%, #f5a068 75%, #ee925e 100%);
-    border-radius: 20px;
-}
-
-.navegacion ul{
-    list-style: none;
-}
-
-.menu > li{
-    position: relative;
-    display: inline-block;
-    color: white;
-    font-family: 'BIZ UDMincho', serif;
-    font-size: 1.5rem;
-}
-
-.menu > li > a{
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    font-family: 'BIZ UDMincho', serif;
-    text-decoration: none;
-}
-
-.menu li a:hover{
-    color: black;
-    transition: all .3s;
-}
-.submenu{
-    position: absolute;
+.navbar{
     background-color: #FDAF75;
-    width: 200%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.5s;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 2rem;
 }
-.submenu li a{
-    display: block;
-    padding: 15px;
-    color: white;
-    font-family: 'BIZ UDMincho', serif;
-    text-decoration: none;
+.dropdown-menu{
+    font-size: 2rem;
+    background-color: #FDAF75;
 }
 
-.menu li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
+#carouselExampleCaptions{
+    width: 50%;
 }
-
 .LOGO{
-    height: 100px;
-}
-header {
-    display: flex;
-    align-items: center;
-    grid-area: nav;
+    height: 3rem;
 }
 
-.body_index{
+body{
 background-image: linear-gradient(335deg, #ff6972 0, #ff5973 25%, #f24a72 50%, #d83d6f 75%, #c1326c 100%);
 padding: 10px;
 margin: 15px;
 border: 10px;
 font-family: 'BIZ UDMincho', serif;
-display: grid; 
-gap: 0px 0px; 
-grid-template-areas: 
-"nav nav nav"
-"main main main"
-"card1 card2 card3"
-"footer footer footer";
 /* grid-template-rows: 66px 466px 330px 67px;*/
 }
 
@@ -115,20 +63,13 @@ main{
 
 footer{
     background-image: radial-gradient(circle at 50% 50%, #fff1ae 0, #ffe7a5 12.5%, #ffd898 25%, #ffc688 37.5%, #fdaf74 50%, #f19862 62.5%, #e88556 75%, #e27650 87.5%, #df6a50 100%);
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 15px;
     border-radius: 10px;
     font-family: 'BIZ UDMincho', serif;
     font-size: 2rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-area: footer;
-    height: 50px;
-
-
+    margin-top: 10px;
+}
+.footer{
+    justify-content: center;
 }
 .logos_footer{
     width: 30px;
@@ -136,11 +77,6 @@ footer{
 }
 
 .principal{
-    display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
-    justify-content: center;
-    text-align: justify;
     font-size: 2.5rem;
     font-family: 'BIZ UDMincho', serif;
 }
@@ -153,12 +89,8 @@ footer{
 }
 
 .imgPrincipal {
-    width: 60rem;
-    height: 35rem;
-    border-radius: 45px;
-    border-color: #EAEA7F;
-    border-style:groove;
-    margin: 15px;
+    height: 20%;
+    border-radius: 50px;
 }
 
 .card1{
@@ -173,7 +105,6 @@ grid-area:card2;
 }
 
 .img_card{
-    width: 70%;
     border-radius: 15px;
     margin-left: 50px;
     margin-bottom: 50px;
@@ -274,38 +205,6 @@ footer{
     flex-wrap: wrap;
 }
 
-    .body_index {grid-template-areas: 
-    "nav"
-    "main"
-    "card1"
-    "card2"
-    "card3"
-    "footer";}
-    .img_card {width: 45%;}
-    .principal{
-        flex-wrap: wrap;
-        flex-direction: column;}
-    .imgPrincipal{
-        width: 40rem;
-        height: 40rem;
-        margin: 20px;}
-    
-    header{
-    flex-direction: column;
-    align-items: center;
-    }
-    .menu{
-        display: flex;
-        flex-direction: column;
-    }
-    .submenu{
-        position: relative;
-        opacity: 1;
-        visibility: visible;
-        width: 100%;
-    }
-    .navegacion{
-        width: 50%;}
 
     .body_materiales{
         padding: 10px;
