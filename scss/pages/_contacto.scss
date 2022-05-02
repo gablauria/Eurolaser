@@ -1,0 +1,15 @@
+.principal_contacto{
+    padding: 10px;
+    margin: 15px;
+    text-align: left;
+    border: 10px;
+}
+.contenido-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mapa{
+    margin: 10px;
+}

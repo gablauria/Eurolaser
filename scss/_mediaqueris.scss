@@ -1,0 +1,14 @@
+/*responsivo*/
+@media (max-width: 360px){
+
+    html{font-size: 40%;}
+    .cards{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+    .logos_footer{
+            width: 15px;
+            height: 15px;}
+    footer {
+        font-size: 10px;
+    }}

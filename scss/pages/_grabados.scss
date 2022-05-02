@@ -1,0 +1,29 @@
+/*Pagina Grabados*/
+.card{
+    width: 30rem;
+    margin: 10px;
+    font-size: 2rem;
+    background-color: $color-4;
+}
+.row{
+    justify-content: center;
+}
+.titulo_grabados{
+    text-align: center;
+}
+.sub_grabados{
+    text-align: left;
+    padding: 20px
+}
+.texto_grabados{
+    text-align: justify;
+    font-size: 2rem;
+
+}
+.lista_grabados{
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}

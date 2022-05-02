@@ -1,0 +1,35 @@
+/* Pagina Materiales */
+.titulo_materiales{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+.texto_materiales{
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.lista_materiales{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+.accordion-item{
+    background-color: $color-3;
+}
+.accordion-button:not(.collapsed){
+    background-color: $color-2;
+    color: black;
+    font-size: 4rem;
+}
+.accordion-button{
+    background-color: $color-2;
+    font-size: 1.5rem;
+}
+.accordion{
+    font-size: 2rem;
+}
+.form-control{
+    font-size: 2rem;
+}

@@ -1,0 +1,42 @@
+@import "variantes";
+@import "footer";
+@import "nav-carrousel";
+@import "pages/contacto";
+@import "pages/cortelaser";
+@import "pages/grabados";
+@import "pages/materiales";
+html{
+    font-size: 62.5%;
+}
+
+/*Index*/
+.LOGO{
+    height: 3rem;
+}
+body{
+background-color: $color-3;
+padding: 10px;
+margin: 15px;
+border: 10px;
+font-family: $Font;
+font-size: 2.5rem;
+}
+.principal{
+    font-size: 2.5rem;
+    font-family: $Font;
+    text-align: justify;
+}
+.titulo_index{
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: $Font;
+    font-size: 5rem;
+    text-align: center;
+}
+.imgPrincipal {
+    height: 20%;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+@import "mediaqueris";

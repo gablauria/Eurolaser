@@ -1,183 +1,166 @@
-/** {margin: 0;
-padding: 0;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}*/
-html{
-    font-size: 62.5%;
-}
-/* Barra de navegacion */
-.navbar{
-    background-color: #FDAF75;
-    border-radius: 20px;
-    font-size: 2rem;
-}
-.dropdown-menu{
-    font-size: 2rem;
-    background-color: #FDAF75;
-}
+/*Footer*/
+footer {
+  background-color: #B4FF9F;
+  border-radius: 10px;
+  font-family: "BIZ UDMincho", serif;
+  font-size: 2rem;
+  margin-top: 10px;
+  justify-content: center; }
 
-#carouselExampleCaptions{
-    width: 50%;
-}
-.LOGO{
-    height: 3rem;
-}
+.logos_footer {
+  width: 30px;
+  height: 30px; }
 
-body{
-background-image: linear-gradient(335deg, #ff6972 0, #ff5973 25%, #f24a72 50%, #d83d6f 75%, #c1326c 100%);
-padding: 10px;
-margin: 15px;
-border: 10px;
-font-family: 'BIZ UDMincho', serif;
-font-size: 2.5rem;
-}
-.principal_contacto{
-    padding: 10px;
-    margin: 15px;
-    text-align: left;
-    border: 10px;
-}
+.navbar {
+  background-color: #FFA1A1;
+  border-radius: 20px;
+  font-size: 2rem; }
 
-footer{
-    background-image: radial-gradient(circle at 50% 50%, #fff1ae 0, #ffe7a5 12.5%, #ffd898 25%, #ffc688 37.5%, #fdaf74 50%, #f19862 62.5%, #e88556 75%, #e27650 87.5%, #df6a50 100%);
-    border-radius: 10px;
-    font-family: 'BIZ UDMincho', serif;
-    font-size: 2rem;
-    margin-top: 10px;
-    justify-content: center;
-}
-.logos_footer{
-    width: 30px;
-    height: 30px;
-}
+.dropdown-menu {
+  font-size: 2rem;
+  background-color: #F9FFA4; }
 
-.principal{
-    font-size: 2.5rem;
-    font-family: 'BIZ UDMincho', serif;
-    text-align: justify;
-}
-.titulo_index{
-    text-align: center;
-    padding-bottom: 25px;
-    font-family: 'BIZ UDMincho', serif;
-    font-size: 5rem;
-    text-align: center;
-}
+#carouselExampleCaptions {
+  width: 50%; }
 
-.imgPrincipal {
-    height: 20%;
-    border-radius: 30px;
-    margin: 20px;
-}
+.principal_contacto {
+  padding: 10px;
+  margin: 15px;
+  text-align: left;
+  border: 10px; }
 
-.card{
-    width: 30rem;
-    margin: 10px;
-    font-size: 2rem;
-    background-color:#fdaf74;
-}
-.row{
-    justify-content: center;
-}
+.contenido-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly; }
 
-/* Pagina Grabados */
+.mapa {
+  margin: 10px; }
 
-.titulo_grabados{
-    text-align: center;
-}
-.sub_grabados{
-    text-align: left;
-    padding: 20px
-}
-.texto_grabados{
-    text-align: justify;
-    font-size: 2rem;
-
-}
-.lista_grabados{
-    text-align: left;
-    font-size: 2rem;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-}
 /* Pagina Corte Laser */
+.titulo_cortelaser {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3rem; }
 
-.titulo_cortelaser{
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 3rem;
-}
-.texto_cortelaser{
-    text-align: left;
-    margin-bottom: 25px;
-    font-size: 2rem;
-}
-.lista_cortelaser{
-    text-align: justify;
-    font-size: 2rem;
-}
-.img_cortelaser{
-    height: 35rem;
-}
+.texto_cortelaser {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 2rem; }
+
+.lista_cortelaser {
+  text-align: justify;
+  font-size: 2rem; }
+
+.img_cortelaser {
+  height: 35rem; }
+
+/*Pagina Grabados*/
+.card {
+  width: 30rem;
+  margin: 10px;
+  font-size: 2rem;
+  background-color: #FFA1A1; }
+
+.row {
+  justify-content: center; }
+
+.titulo_grabados {
+  text-align: center; }
+
+.sub_grabados {
+  text-align: left;
+  padding: 20px; }
+
+.texto_grabados {
+  text-align: justify;
+  font-size: 2rem; }
+
+.lista_grabados {
+  text-align: left;
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px; }
 
 /* Pagina Materiales */
-.titulo_materiales{
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 3rem;
-}
-.texto_materiales{
-    text-align: left;
-    margin-bottom: 25px;
-    font-size: 2rem;
-}
-.lista_materiales{
-    text-align: left;
-    margin-left: 80px;
-    margin-bottom: 50px;
-    font-size: 2rem;
-}
-.accordion-item{
-    background-color: #f19862;
-}
-.accordion-button:not(.collapsed){
-    background-color: #f19862;
-    color: black;
-    font-size: 4rem;
-}
-.accordion-button{
-    background-color: #ffc688;
-    font-size: 1.5rem;
-}
-.accordion{
-    font-size: 2rem;
-}
-.form-control{
-    font-size: 2rem;
-}
-.contenido-contacto{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.mapa{
-    margin: 10px;
-}
-/*responsivo (? */
-@media (max-width: 360px){
+.titulo_materiales {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3rem; }
 
-html{font-size: 40%;}
-.cards{
-justify-content: center;
-flex-direction: column;
-align-items: center;}
-.logos_footer{
-        width: 15px;
-        height: 15px;}
-footer {
-    font-size: 10px;
-}}
+.texto_materiales {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 2rem; }
+
+.lista_materiales {
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  font-size: 2rem; }
+
+.accordion-item {
+  background-color: #FFD59E; }
+
+.accordion-button:not(.collapsed) {
+  background-color: #F9FFA4;
+  color: black;
+  font-size: 4rem; }
+
+.accordion-button {
+  background-color: #F9FFA4;
+  font-size: 1.5rem; }
+
+.accordion {
+  font-size: 2rem; }
+
+.form-control {
+  font-size: 2rem; }
+
+html {
+  font-size: 62.5%; }
+
+/*Index*/
+.LOGO {
+  height: 3rem; }
+
+body {
+  background-color: #FFD59E;
+  padding: 10px;
+  margin: 15px;
+  border: 10px;
+  font-family: "BIZ UDMincho", serif;
+  font-size: 2.5rem; }
+
+.principal {
+  font-size: 2.5rem;
+  font-family: "BIZ UDMincho", serif;
+  text-align: justify; }
+
+.titulo_index {
+  text-align: center;
+  padding-bottom: 25px;
+  font-family: "BIZ UDMincho", serif;
+  font-size: 5rem;
+  text-align: center; }
+
+.imgPrincipal {
+  height: 20%;
+  border-radius: 30px;
+  margin: 20px; }
+
+/*responsivo*/
+@media (max-width: 360px) {
+  html {
+    font-size: 40%; }
+  .cards {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .logos_footer {
+    width: 15px;
+    height: 15px; }
+  footer {
+    font-size: 10px; } }
