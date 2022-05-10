@@ -1,16 +1,18 @@
+$t-align: (t-c: center, t-l: left, t-r: right ,t-j: justify);
+
 /* Pagina Corte Laser */
-.titulo_cortelaser{
-    text-align: center;
+.titulo_cortelaser {
+    text-align: map-get($t-align,t-c);
     margin-bottom: 25px;
     font-size: 3rem;
 }
 .texto_cortelaser{
-    text-align: left;
+    text-align: map-get($t-align,t-l);
     margin-bottom: 25px;
     font-size: 2rem;
 }
 .lista_cortelaser{
-    text-align: justify;
+    text-align: map-get($t-align,t-j);
     font-size: 2rem;
 }
 .img_cortelaser{

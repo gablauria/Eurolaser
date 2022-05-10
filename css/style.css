@@ -90,16 +90,14 @@ footer {
   margin-bottom: 25px;
   font-size: 3rem; }
 
-.texto_materiales {
+.texto_materiales, .lista_materiales {
   text-align: left;
   margin-bottom: 25px;
   font-size: 2rem; }
 
 .lista_materiales {
-  text-align: left;
   margin-left: 80px;
-  margin-bottom: 50px;
-  font-size: 2rem; }
+  margin-bottom: 50px; }
 
 .accordion-item {
   background-color: #FFD59E; }
@@ -140,7 +138,6 @@ body {
   text-align: justify; }
 
 .titulo_index {
-  text-align: center;
   padding-bottom: 25px;
   font-family: "BIZ UDMincho", serif;
   font-size: 5rem;

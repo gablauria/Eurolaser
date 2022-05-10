@@ -10,11 +10,11 @@
     font-size: 2rem;
 }
 .lista_materiales{
-    text-align: left;
+    @extend .texto_materiales;
     margin-left: 80px;
     margin-bottom: 50px;
-    font-size: 2rem;
 }
+
 .accordion-item{
     background-color: $color-3;
 }
