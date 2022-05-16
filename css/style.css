@@ -40,7 +40,6 @@ footer {
 
 .principal_contacto {
   padding: 10px;
-  margin: 15px;
   text-align: left;
   border: 10px; }
 
@@ -167,7 +166,7 @@ body {
   margin: 20px; }
 
 /*responsivo*/
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 600px) {
   html {
     font-size: 30%; }
   .cards {
