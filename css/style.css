@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /*Footer*/
 footer {
   background-color: #B4FF9F;
   border-radius: 10px;
-  font-family: "BIZ UDMincho", serif;
+  font-family: "Rubik", sans-serif;
   font-size: 2rem;
   margin-top: 10px;
   justify-content: center; }
@@ -18,10 +19,24 @@ footer {
 
 .dropdown-menu {
   font-size: 2rem;
-  background-color: #F9FFA4; }
+  background-color: #FFA1A1; }
 
-#carouselExampleCaptions {
-  width: 50%; }
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.my-float {
+  margin-top: 16px; }
 
 .principal_contacto {
   padding: 10px;
@@ -42,7 +57,8 @@ footer {
 .titulo_cortelaser {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: "BIZ UDMincho", serif; }
 
 .texto_cortelaser {
   text-align: left;
@@ -75,7 +91,8 @@ footer {
 
 .texto_grabados {
   text-align: justify;
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif; }
 
 .lista_grabados {
   text-align: left;
@@ -88,7 +105,8 @@ footer {
 .titulo_materiales {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: "BIZ UDMincho", serif; }
 
 .texto_materiales, .lista_materiales {
   text-align: left;
@@ -129,12 +147,12 @@ body {
   padding: 10px;
   margin: 15px;
   border: 10px;
-  font-family: "BIZ UDMincho", serif;
+  font-family: "Rubik", sans-serif;
   font-size: 2.5rem; }
 
 .principal {
   font-size: 2.5rem;
-  font-family: "BIZ UDMincho", serif;
+  font-family: "Rubik", sans-serif;
   text-align: justify; }
 
 .titulo_index {
@@ -144,14 +162,14 @@ body {
   text-align: center; }
 
 .imgPrincipal {
-  height: 20%;
+  height: 50%;
   border-radius: 30px;
   margin: 20px; }
 
 /*responsivo*/
 @media (max-width: 360px) {
   html {
-    font-size: 40%; }
+    font-size: 30%; }
   .cards {
     justify-content: center;
     flex-direction: column;
@@ -160,4 +178,6 @@ body {
     width: 15px;
     height: 15px; }
   footer {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .imgPrincipal {
+    height: 20%; } }

@@ -21,12 +21,12 @@ background-color: $color-3;
 padding: 10px;
 margin: 15px;
 border: 10px;
-font-family: $Font;
+font-family: $Font2;
 @include size-estandar;
 }
 .principal{
     @include size-estandar;
-    font-family: $Font;
+    font-family: $Font2;
     text-align: justify;
 }
 .titulo_index{
@@ -36,7 +36,7 @@ font-family: $Font;
     text-align: center;
 }
 .imgPrincipal {
-    height: 20%;
+    height: 50%;
     border-radius: 30px;
     margin: 20px;
 }

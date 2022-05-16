@@ -5,6 +5,7 @@ $t-align: (t-c: center, t-l: left, t-r: right ,t-j: justify);
     text-align: map-get($t-align,t-c);
     margin-bottom: 25px;
     font-size: 3rem;
+    font-family: $Font;
 }
 .texto_cortelaser{
     text-align: map-get($t-align,t-l);
