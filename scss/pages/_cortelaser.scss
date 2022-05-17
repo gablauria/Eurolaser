@@ -4,18 +4,24 @@ $t-align: (t-c: center, t-l: left, t-r: right ,t-j: justify);
 .titulo_cortelaser {
     text-align: map-get($t-align,t-c);
     margin-bottom: 25px;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: $Font;
 }
 .texto_cortelaser{
-    text-align: map-get($t-align,t-l);
-    margin-bottom: 25px;
-    font-size: 2rem;
-}
-.lista_cortelaser{
     text-align: map-get($t-align,t-j);
-    font-size: 2rem;
+    margin-bottom: 25px;
+    font-size: 3.5rem;
 }
 .img_cortelaser{
-    height: 35rem;
+    height: 40rem;
+}
+
+.divs_cortelaser{
+    align-items: center;
+    @extend .texto_cortelaser;
+}
+
+.divs_cortelaser_reverse{
+    @extend .divs_cortelaser;
+    flex-direction: row-reverse;
 }
