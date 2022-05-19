@@ -10,7 +10,7 @@ $t-align: (t-c: center, t-l: left, t-r: right ,t-j: justify);
 .texto_cortelaser{
     text-align: map-get($t-align,t-j);
     margin-bottom: 25px;
-    font-size: 3.5rem;
+    @include size-estandar;
 }
 .img_cortelaser{
     height: 40rem;
@@ -25,3 +25,24 @@ $t-align: (t-c: center, t-l: left, t-r: right ,t-j: justify);
     @extend .divs_cortelaser;
     flex-direction: row-reverse;
 }
+
+.banner2{
+    width: 100%;
+    height: 60vh;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.534) ,rgba(0, 0, 0, 0.425)), url("../images/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto_banner2{
+    text-align: center;
+    font-size: 2rem;
+}
+

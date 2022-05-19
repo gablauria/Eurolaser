@@ -10,20 +10,23 @@
 }
 .titulo_grabados{
     text-align: center;
+    font-family: $Font;
+    font-size: 4rem;
 }
 .sub_grabados{
     text-align: left;
-    padding: 20px
+    padding: 20px;
+    font-size: 3rem;
 }
 .texto_grabados{
     text-align: justify;
-    font-size: 2rem;
+    @include size-estandar;
     font-family: $Font2;
 
 }
 .lista_grabados{
     text-align: left;
-    font-size: 2rem;
+    @include size-estandar;
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 20px;

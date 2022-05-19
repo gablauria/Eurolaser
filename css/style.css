@@ -62,7 +62,7 @@ footer {
 .texto_cortelaser, .divs_cortelaser, .divs_cortelaser_reverse {
   text-align: justify;
   margin-bottom: 25px;
-  font-size: 3.5rem; }
+  font-size: 2.5rem; }
 
 .img_cortelaser {
   height: 40rem; }
@@ -72,6 +72,24 @@ footer {
 
 .divs_cortelaser_reverse {
   flex-direction: row-reverse; }
+
+.banner2 {
+  width: 100%;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.425)), url("../images/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.texto_banner2 {
+  text-align: center;
+  font-size: 2rem; }
 
 /*Pagina Grabados*/
 .card {
@@ -84,20 +102,23 @@ footer {
   justify-content: center; }
 
 .titulo_grabados {
-  text-align: center; }
+  text-align: center;
+  font-family: "BIZ UDMincho", serif;
+  font-size: 4rem; }
 
 .sub_grabados {
   text-align: left;
-  padding: 20px; }
+  padding: 20px;
+  font-size: 3rem; }
 
 .texto_grabados {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Rubik", sans-serif; }
 
 .lista_grabados {
   text-align: left;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-top: 20px;
   padding-left: 50px;
   padding-bottom: 20px; }
@@ -105,14 +126,14 @@ footer {
 /* Pagina Materiales */
 .titulo_materiales {
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 3rem;
+  margin-top: 25px;
+  font-size: 4rem;
   font-family: "BIZ UDMincho", serif; }
 
 .texto_materiales, .lista_materiales {
-  text-align: left;
+  text-align: center;
   margin-bottom: 25px;
-  font-size: 2rem; }
+  font-size: 2.5rem; }
 
 .lista_materiales {
   margin-left: 80px;
@@ -131,10 +152,24 @@ footer {
   font-size: 1.5rem; }
 
 .accordion {
-  font-size: 2rem; }
+  font-size: 2.5rem; }
 
 .form-control {
-  font-size: 2rem; }
+  font-size: 2.5rem; }
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.425)), url("../images/mdf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 html {
   font-size: 62.5%; }
