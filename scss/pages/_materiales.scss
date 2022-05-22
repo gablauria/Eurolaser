@@ -17,10 +17,10 @@
 }
 
 .accordion-item{
-    background-color: $color-3;
+    background-color: $color-4;
 }
 .accordion-button:not(.collapsed){
-    background-color: $color-2;
+    background-color: $color-4;
     color: black;
     font-size: 4rem;
 }
@@ -48,4 +48,5 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 2px 2px 2px black;
 }

@@ -1,13 +1,23 @@
 /*Footer*/
-footer{
+.foot{
     background-color: $color-1;
     border-radius: 10px;
     font-family: $Font2;
     font-size: 2rem;
     margin-top: 10px;
     justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
 }
 .logos_footer{
     width: 30px;
     height: 30px;
+}
+
+/*links footer*/
+.boton-up{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
 }
