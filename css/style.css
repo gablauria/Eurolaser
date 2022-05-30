@@ -47,19 +47,18 @@
 .my-float {
   margin-top: 16px; }
 
-.principal_contacto {
-  padding: 10px;
-  text-align: left;
-  border: 10px; }
+/*Pagina Contacto*/
+.tituloContacto {
+  text-align: center;
+  margin: 10px; }
 
 .contenido-contacto {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly; }
+  margin-left: 15px;
+  margin-bottom: 20px; }
 
 .mapa {
-  margin: 10px; }
+  margin-top: 20px;
+  margin-right: 15px; }
 
 /* Pagina Corte Laser */
 .titulo_cortelaser {
