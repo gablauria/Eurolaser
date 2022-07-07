@@ -258,7 +258,8 @@ p {
   align-items: center;
   transition: all .5s;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  z-index: 100; }
 
 .modal-active {
   opacity: 1;
@@ -286,7 +287,7 @@ p {
   font-size: 20px;
   color: royalblue;
   border: none;
-  background-color: white; }
+  background-color: red; }
 
 .modal-carrito #carritoCerrar:hover {
   cursor: pointer; }
@@ -311,15 +312,17 @@ p {
 
 .boton-eliminar {
   background-color: white;
-  color: red;
   border: none;
-  font-size: 20px; }
+  font-size: 30px; }
 
 .boton-eliminar:hover {
   cursor: pointer; }
 
 .boton-eliminar:focus {
   outline: none; }
+
+#boton-carrito {
+  z-index: 100; }
 
 html {
   font-size: 62.5%; }

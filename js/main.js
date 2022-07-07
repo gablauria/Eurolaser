@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-// botonVaciar.addEventListener('click', () => {
-//     carrito.length = 0
-//     actualizarCarrito()
-// })
+botonVaciar.addEventListener('click', () => {
+    carrito.length = 0
+    actualizarCarrito()
+})
 
 stockProductos.forEach((producto) => {
 
@@ -88,7 +88,7 @@ const actualizarCarrito = () => {
         <p>${prod.nombre}</p>
         <p>Precio:$${prod.precio}</p>
         <p>Cantidad: <span id="cantidad">${prod.cantidad}</span></p>
-        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar "><i class="btn-close"></i></button>
         `
 
         contenedorCarrito.appendChild(div)
