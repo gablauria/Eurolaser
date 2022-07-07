@@ -40,7 +40,6 @@ stockProductos.forEach((producto) => {
                                     <p class="card-text">Precio: $${producto.precio}</p>
                                     <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
                                 </div>`;
-// <a href="#" class="btn btn-primary">$${producto.precio}</a> 
 document.getElementById("contenedor-productos").append(contenedor);
 
 
@@ -120,6 +119,5 @@ contenedorModal.addEventListener('click', (event) =>{
 
 })
 modalCarrito.addEventListener('click', (event) => {
-    event.stopPropagation() //cuando clickeo sobre el modal se finaliza la propagacion del click a los elementos
-    //padre
+    event.stopPropagation()
 })
