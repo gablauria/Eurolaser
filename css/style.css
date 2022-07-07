@@ -198,12 +198,15 @@
 
 #boton-carrito {
   border: none;
-  color: royalblue;
+  color: black;
   font-size: 40px;
-  background-color: white;
-  border-radius: 50%;
   padding: 10px 20px;
-  transition: all .3s; }
+  transition: all .3s;
+  background-color: red;
+  border-radius: 100%;
+  position: fixed;
+  box-shadow: 2px 2px 3px #999;
+  left: 90%; }
 
 #boton-carrito:hover {
   cursor: pointer;
