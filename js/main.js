@@ -1,3 +1,4 @@
+// const { showHelpOnFail } = require("yargs");
 
 const stockProductos = [
     { id:1 , nombre: "Medusa" ,cantidad: 1 ,precio:125,descr: "Medusa🐍Cuadro MDF negro 3mm ,Contamos con varias medidas: 70cm - 60cm - 45cm - 30cm ",img: "../images/producto_1.jpg"},
@@ -43,7 +44,7 @@ stockProductos.forEach((producto) => {
                                     <h5 class="card-title">${producto.nombre}</h5>
                                     <p class="card-text">${producto.descr}</p>
                                     <p class="card-text">Precio: $${producto.precio}</p>
-                                    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+                                    <button id="agregar${producto.id}" class="boton-agregar botonClick">Agregar <i class="fas fa-shopping-cart"></i></button>
                                 </div>`;
 document.getElementById("contenedor-productos").append(contenedor);
 
@@ -52,7 +53,17 @@ const boton = document.getElementById(`agregar${producto.id}`)
 
 boton.addEventListener('click', () => {
     agregarAlCarrito(producto.id)
-    //
+        Toastify({
+            text: "Producto Agregado Al Carrito",
+            duration: 3000,
+            gravity:"bottom",
+            style:{
+                background: "#e8c39e",
+                color:"black",
+            },
+            position:"right"
+        }).showToast();
+    
 })
 })
 
