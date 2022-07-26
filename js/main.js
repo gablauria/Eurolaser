@@ -40,24 +40,24 @@ botonVaciar.addEventListener('click', () => {
     actualizarCarrito()
 })
 
-const mostrarProductos = (data) => {
+mostrarProductos = (data) => {
     data.forEach(post => {
         let contenedor = document.createElement("div");
         contenedor.classList.add("col-sm-6");
         contenedor.classList.add("card")
 
-        contenedor.innerHTML = `<img src="${data.img}" class="card-img-top" alt="...">
+        contenedor.innerHTML = `<img src="${post.img}" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">${data.nombre}</h5>
-                                    <p class="card-text">${data.descr}</p>
-                                    <p class="card-text">Precio: $${data.precio}</p>
-                                    <button id="agregar${data.id}" class="boton-agregar botonClick">Agregar <i class="fas fa-shopping-cart"></i></button>
+                                    <h5 class="card-title">${post.nombre}</h5>
+                                    <p class="card-text">${post.descr}</p>
+                                    <p class="card-text">Precio: $${post.precio}</p>
+                                    <button id="agregar${post.id}" class="boton-agregar botonClick">Agregar <i class="fas fa-shopping-cart"></i></button>
                                 </div>`;
 document.getElementById("contenedor-productos").append(contenedor);
-const boton = document.getElementById(`agregar${data.id}`)
+const boton = document.getElementById(`agregar${post.id}`)
 
 boton.addEventListener('click', () => {
-    agregarAlCarrito(data.id)
+    agregarAlCarrito(post.id)
         Toastify({
             text: "Producto Agregado Al Carrito",
             duration: 3000,
@@ -129,7 +129,7 @@ const agregarAlCarrito = (prodId) => {
             }
         })
     } else { 
-        const item = stockProductos.find((prod) => prod.id === prodId)
+        const item = mostrarProductos.find((prod) => prod.id === prodId)
         carrito.push(item)
     }
     actualizarCarrito() 
