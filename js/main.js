@@ -1,16 +1,43 @@
-// const { showHelpOnFail } = require("yargs");
 
-const stockProductos = [
-    { id:1 , nombre: "Medusa" ,cantidad: 1 ,precio:125,descr: "Medusa🐍Cuadro MDF negro 3mm ,Contamos con varias medidas: 70cm - 60cm - 45cm - 30cm ",img: "../images/producto_1.jpg"},
-    { id:2 , nombre: "Cebra", cantidad: 1, precio:50, descr: "Cuadro Tríptico Cebra🦓,Ideal living, habitación o cualquier otro espacio que necesites decorar.", img: "../images/producto_2.jpg"},
-    { id:3 , nombre: "Hojas Caladas" , cantidad: 1,precio:50, descr:"Cuadro Hojas Caladas🍃 Decora y personaliza tus espacios de una manera simple y elegante. Ideal para espacios amplios por su tamaño de 110x70cm. Consulta otras medidas.",img: "../images/producto_3.jpg" },
-    { id:4 , nombre: "Harry Potter",cantidad: 1, precio:75, descr:"Cuadro Harry Potter⚡,Cuadros 3D personalizados, envianos tu propuesta! Nosotros lo hacemos posible",img: "../images/producto_4.jpg"},
-    { id:5 , nombre: "Red Hot",cantidad: 1, precio:75, descr:"Cuadro Logo Red Hot Chili Peppers💥Medidas: 45cm de diametro, Material: Fibrofacil y Fibroplus",img: "../images/producto_5.jpg"},
-    { id:6 , nombre: "Iron-Man",cantidad: 1, precio:75, descr:"Cuadro Logo Iron Man ,Medidas📐45cm de diámetro",img: "../images/producto_6.jpg"},
-    { id:7 , nombre: "Mujer Maravilla",cantidad: 1, precio:75, descr:"Cuadro Logo Mujer Maravilla🌟 Medidas 📐45cm de diametro. Y contiene 3 capas de mdf",img: "../images/producto_7.jpg"},
-    { id:7 , nombre: "Batman",cantidad: 1, precio:75, descr:"Cuadro Logo Batman🦇 Medidas: 📐45cm de diámetro. Ideal para tu pieza.",img: "../images/producto_8.jpg"},
-    { id:8 , nombre: "Nube",cantidad: 1, precio:75, descr:"Velador nube☁️ ,💥Polyfan & FibroFacil,📐Medidas: 20x30",img: "../images/producto_9.jpg"}
-];
+//asi tampoco funciona u.u
+
+// const getProducts = async () =>{
+//     try {
+//         const response = await fetch("/js/data.json");
+//         const data = await response.json();
+//         stockProductos(data);
+//     }
+//     catch(error){
+//         console.log("error: " , error);
+//     }
+// }
+
+// fetch("/js/data.json") // asi tampoco funciona u.u
+// .then((response) => response.json())
+// .then ((data) =>{
+//     stockProductos(data);
+// })
+
+
+// fetch("/js/data.json") //asi no funciona , hago console.log de stockproductos y estan pero no entiendo por que no los agrega
+// .then( (response) => response.json() )
+//     .then( (resultado) => {
+//             resultado.forEach(producto => {
+//                 stockProductos.push(producto);
+//             })
+//         })
+        
+// const stockProductos = [
+//     { id:1 , nombre: "Medusa" ,cantidad: 1 ,precio:125,descr: "Medusa🐍Cuadro MDF negro 3mm ,Contamos con varias medidas: 70cm - 60cm - 45cm - 30cm ",img: "../images/producto_1.jpg"},
+//     { id:2 , nombre: "Cebra", cantidad: 1, precio:50, descr: "Cuadro Tríptico Cebra🦓,Ideal living, habitación o cualquier otro espacio que necesites decorar.", img: "../images/producto_2.jpg"},
+//     { id:3 , nombre: "Hojas Caladas" , cantidad: 1,precio:50, descr:"Cuadro Hojas Caladas🍃 Decora y personaliza tus espacios de una manera simple y elegante. Ideal para espacios amplios por su tamaño de 110x70cm. Consulta otras medidas.",img: "../images/producto_3.jpg" },
+//     { id:4 , nombre: "Harry Potter",cantidad: 1, precio:75, descr:"Cuadro Harry Potter⚡,Cuadros 3D personalizados, envianos tu propuesta! Nosotros lo hacemos posible",img: "../images/producto_4.jpg"},
+//     { id:5 , nombre: "Red Hot",cantidad: 1, precio:75, descr:"Cuadro Logo Red Hot Chili Peppers💥Medidas: 45cm de diametro, Material: Fibrofacil y Fibroplus",img: "../images/producto_5.jpg"},
+//     { id:6 , nombre: "Iron-Man",cantidad: 1, precio:75, descr:"Cuadro Logo Iron Man ,Medidas📐45cm de diámetro",img: "../images/producto_6.jpg"},
+//     { id:7 , nombre: "Mujer Maravilla",cantidad: 1, precio:75, descr:"Cuadro Logo Mujer Maravilla🌟 Medidas 📐45cm de diametro. Y contiene 3 capas de mdf",img: "../images/producto_7.jpg"},
+//     { id:7 , nombre: "Batman",cantidad: 1, precio:75, descr:"Cuadro Logo Batman🦇 Medidas: 📐45cm de diámetro. Ideal para tu pieza.",img: "../images/producto_8.jpg"},
+//     { id:8 , nombre: "Nube",cantidad: 1, precio:75, descr:"Velador nube☁️ ,💥Polyfan & FibroFacil,📐Medidas: 20x30",img: "../images/producto_9.jpg"}
+// ];
 const contenedorProductos = document.getElementById('contenedor-productos')
 const contenedorCarrito = document.getElementById('carrito-contenedor')
 const botonVaciar = document.getElementById('vaciar-carrito')
@@ -32,7 +59,7 @@ botonVaciar.addEventListener('click', () => {
     carrito.length = 0
     actualizarCarrito()
 })
-
+const stockProductos= [] // agregue esto aca pero no funciona
 stockProductos.forEach((producto) => {
 
         let contenedor = document.createElement("div");
