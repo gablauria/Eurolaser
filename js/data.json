@@ -6,6 +6,6 @@
     {"id":5 , "nombre": "Red Hot","cantidad": 1, "precio":75, "descr":"Cuadro Logo Red Hot Chili Peppers💥Medidas: 45cm de diametro, Material: Fibrofacil y Fibroplus","img": "../images/producto_5.jpg"},
     {"id":6 , "nombre": "Iron-Man","cantidad": 1, "precio":75, "descr":"Cuadro Logo Iron Man ,Medidas📐45cm de diámetro","img": "../images/producto_6.jpg"},
     {"id":7 , "nombre": "Mujer Maravilla","cantidad": 1, "precio":75, "descr":"Cuadro Logo Mujer Maravilla🌟 Medidas 📐45cm de diametro. Y contiene 3 capas de mdf","img": "../images/producto_7.jpg"},
-    {"id":7 , "nombre": "Batman","cantidad": 1, "precio":75, "descr":"Cuadro Logo Batman🦇 Medidas: 📐45cm de diámetro.ideal para tu pieza.","img": "../images/producto_8.jpg"},
-    {"id":8 , "nombre": "Nube","cantidad": 1, "precio":75, "descr":"Velador nube☁️ ,💥Polyfan & FibroFacil,📐Medidas: 20x30","img": "../images/producto_9.jpg"}
+    {"id":8 , "nombre": "Batman","cantidad": 1, "precio":75, "descr":"Cuadro Logo Batman🦇 Medidas: 📐45cm de diámetro.ideal para tu pieza.","img": "../images/producto_8.jpg"},
+    {"id":9 , "nombre": "Nube","cantidad": 1, "precio":75, "descr":"Velador nube☁️ ,💥Polyfan & FibroFacil,📐Medidas: 20x30","img": "../images/producto_9.jpg"}
 ]
